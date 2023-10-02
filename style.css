@@ -11,10 +11,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -83,6 +80,18 @@ nav a {
   text-decoration: none;
   color: #272142;
   transition: all 100ms ease-in-out;
+}
+
+footer .social-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 10px;
+}
+
+footer .social-links li {
+  list-style: none;
 }
 
 footer .social-links a {
